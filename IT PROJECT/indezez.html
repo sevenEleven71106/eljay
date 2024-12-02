@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="ez.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header(logo&name)-->
+    <div class="heading">   
+    </div>
+
+    <div class="logo1">
+        <img src="zlogo 1.png">
+    </div>
+
+    <div class="text1">
+        <p>ZARMATRACK</p>
+    </div>
+
+    
+<!--(heading) ul li-->
+
+<div class="list">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Help & Support</a></li>
+            <li  class="logbtn"><a href="dashboard.html">Login</a></li>
+        </ul>
+</div>
+
+<!--b2-->
+
+<div class="list2">
+    <ul>
+        <li>Guide</li>
+        <li>Features</li>
+    </ul>
+
+    <div class="searchIcon">
+        <span>&#128269;</span>
+    </div>
+
+    <input type="text" id="searchEngine" placeholder="Search">
+
+</div>
+
+<!--cover-->
+<div id="slideshow">
+    <img src="imageh.jpg" class="active">
+    <img src="imageh2.jpg">
+</div>
+
+<script> //Code for slideshow
+    var curSlide = 0;
+
+    const slides = document.querySelectorAll('#slideshow img');
+  
+    function showNextSlide () {
+        slides[curSlide].classList.remove('active');
+        curSlide = (curSlide + 1) % slides.length;
+        slides[curSlide].classList.add('active');
+    }
+
+    setInterval(showNextSlide, 3000);
+
+</script>
+
+<div class="title">
+    <p>TRACK PROGRESS, MANAGE TASKS, GROW YOUR TEAM.</p>
+</div>
+
+<div class="Start">
+    <button>Get Started</button>
+</div>
+
+
+ <div class="ytvid">
+    <iframe width="1257" height="400" src="https://www.youtube.com/embed/gXFATcwrO-U" title="Business footage diverse team | Footage in office, meeting room | Free download stock footage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
+ </div>
+
+ <!--Gallery-->
+
+<div class="boxes">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+
+<div class="images">
+    <img src="imageh2.jpg">
+    <img src="info1.jpg">
+    <img src="task1.jpg">
+    <img src="pay1.jpg">
+</div>
+
+
+    <div class="AttendanceTracking">
+        <h2>Attendance Tracking</h2>
+        <p>"Track employee attendance in real-time, effortlessly."</p>
+    </div>
+
+    <div class="EmployeeInformation">
+        <h2>Manage Employee Information</h2>
+        <p>"Organize data easily, access all info in one place."</p>
+    </div>
+
+    <div class="PendingTasks">
+        <h2>Pending Tasks & Alerts</h2>
+        <p>"Track pending tasks and stay updated with important announcements in real-time."</p>
+    </div>
+
+    <div class="PayrollDistribution">
+        <h2>Payroll Distribution</h2>
+        <p>"Streamline payroll and ensure timely payments."</p>
+ 
+<!--Footer-->
+
+<div class="boxesL">
+</div>
+
+<div class="logof">
+    <img src="zlogo 1.png">
+
+</div>
+
+<div class="zarma">
+    <p>ZARMATRACK</p>
+</div>
+
+<div class="desc">
+    <p>Designed to effortlessly manage employees, performance tracking, and streamlined HR processes!</p>
+</div>
+
+<div class="follow">
+    <p>FOLLOW US</p>
+</div>
+
+<div class="socials">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-pinterest"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+</div>
+
+<div class="contact">
+    <p class="t">CONTACT US</h3>
+    <p>laya.zarmatrack.co</p>
+    <p>24 Borja Ave. Cagayan De Oro City</p>
+    <p>0937-346-359</p>
+</div>
+
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7892.787979096578!2d124.57695320248604!3d8.461012234182043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32ff8b148250f1b7%3A0x6f1dae657fd7e898!2sMindanao%20Homes%20Subdivision!5e0!3m2!1sen!2sph!4v1731595557355!5m2!1sen!2sph" width="100" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div class="copyright">
+    <p>© 2024 ZarmaTrack Inc. All rights reserved</p>
+</div>
+</div> 
+</body>
+</html>

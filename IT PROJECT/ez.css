@@ -1,0 +1,148 @@
+body {
+    background-color: #2A2D35;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.heading {
+    background-color: #182F59;
+    width: 100%;
+    padding: 2%;
+    box-shadow: 1px 2px 6px black;
+    display: flex;
+    align-items: center;
+}
+
+.logo1 {
+    margin-left: 3%;
+    margin-top: -3%;
+}
+
+.logo1 img {
+    width: 6%; /* Adjusted for responsiveness */
+    height: auto;
+}
+
+.text1 {
+    margin-left: 7%;
+    margin-top: -5%;
+}
+
+.text1 p {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 5px 4px black;
+    font-size: 150%; /* Scalable text */
+}
+
+.list {
+    margin-top: -3%;
+    margin-left: 65%; /* Adjusted for better scaling */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin: 0 4%; /* Use % for consistent spacing */
+    white-space: nowrap;
+    font-size: 90%; /* Responsive font size */
+}
+
+.logbtn {
+    background-color: #4279BF;
+    padding: 3% 5%; /* Scalable padding */
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-top: -1%;
+    box-shadow: 1px 2px 6px black;
+}
+
+.logbtn a {
+    text-decoration: none;
+    color: white;
+    font-size: 80%; /* Scaled for better responsiveness */
+    font-family: "Outfit", sans-serif;
+}
+
+.logbtn a:hover {
+    color: #2A2D35;
+}
+
+.list2 {
+    display: inline-flex;
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+input {
+    margin-left: 70%; /* Adjusted to avoid overflow */
+    background-color: #182F59;
+    box-shadow: 1px 2px 6px black;
+    border-radius: 10px;
+    padding: 1% 5%; /* Scalable padding */
+    font-family: "Outfit", sans-serif;
+    font-size: 80%; /* Consistent font size */
+    border: 1px solid white;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 72%;
+    font-size: 120%; /* Scaled icon size */
+    top: 10%;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#slideshow {
+    margin-top: 1%;
+}
+
+#slideshow img {
+    width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    display: none;
+}
+
+#slideshow img.active {
+    display: block;
+}
+
+.title {
+    width: 30%; /* Adjusted for responsiveness */
+    margin-left: 5%;
+    margin-top: -25%; /* Relative positioning maintained */
+}
+
+.title p {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 200%; /* Adjusted for scaling */
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 1px 6px 6px black;
+}
+
+.Start {
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+button {
+    background-color: #4279BF;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    border-radius: 10px;
+    padding: 1% 5}

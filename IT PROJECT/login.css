@@ -1,0 +1,108 @@
+body {
+    background-image: url(login.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+.login-box {
+    width: 210px;
+    height: 260px;
+    padding: 70px;
+    opacity: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 25px 20px black;
+    text-align: center;
+    margin-top: 140px;
+
+}
+
+.login {
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    padding: 70px;
+    text-align: center;
+    margin-top: -110px;
+    
+}
+
+.login img {
+    opacity: 90%;
+    width: 130px ;
+    height: 120px;
+    border-radius: 100px;
+}
+
+.login h1{
+    opacity: 100%;
+    font-weight: 800;
+    margin-top: 3px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 2px;
+    font-size: 23px;
+    text-shadow: 6px 6px 5px black;
+}
+
+.login h3 {
+    letter-spacing: 1px;
+    margin-top: 28px;
+    color: white;
+    margin-left: -190px;
+    font-size: 17px;
+}
+form {
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    padding: 70px;
+    text-align: center;
+    margin-top: 330px;
+}
+
+input {
+    font-family: "Outfit", sans-serif;
+    width: 234px;
+    height: 25px;
+    background: transparent;
+    color: white;
+    border: 1px solid #0E3853;
+    box-shadow: 0px 2px 5px black;
+    margin-bottom: 13px;
+}
+
+input::placeholder{
+    padding-left: 7px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+
+}
+    
+a {
+    color: white;
+    font-family: "Outfit", sans-serif ;
+    margin-left: -148px ;
+    font-size: 12px;
+   
+}
+
+button {
+    color: white;
+    width: 234px;
+    height: 25px;
+    font-family: "Outfit", sans-serif ;
+    border: 1px solid #0E3853 ;
+    box-shadow: 0px 2px 5px black;
+    
+    
+}
+
+button:hover{
+   transform: scale(1.05);
+
+}

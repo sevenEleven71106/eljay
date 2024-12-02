@@ -1,0 +1,468 @@
+body {
+    background-color: #2A2D35;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+    overflow-x:auto;
+    overflow-y: auto;
+}
+
+.heading {
+   
+    background-color: #182F59;
+    width: 96%;
+    padding: 2%;
+    box-shadow: 1px 2px 6px black;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.logo1 {
+    margin-left: 3%;
+    margin-top: -3%;
+    
+}
+.logo1 img {
+    position: absolute;
+    width: 4%;
+    height: auto;
+   
+
+}
+
+.text1 {
+    margin-left: 7%;
+    margin-top: -4%;
+   
+}
+
+.text1 p {
+    position: absolute;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 5px 4px black;
+    font-size: 110%;
+    
+}
+
+.list {
+    padding: 0%;
+    margin-top: 1.3%;
+    margin-left: 69%;
+  
+}
+ul {
+    position: absolute;
+   list-style-type: none;
+   padding: 0%;
+   margin: 0%;
+   display: flex;
+   
+
+}
+
+li {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin: 0 20px;
+    white-space: nowrap;
+    font-size: 80%;
+   
+}
+
+.logbtn {
+    background-color: #4279BF;
+    padding: 5px 11px;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-top: -1%;
+    box-shadow: 1px 2px 6px black;
+   
+}
+
+.logbtn a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-family: "Outfit", sans-serif;
+    
+   
+}
+
+.logbtn a:hover {
+    color: #2A2D35;
+}
+
+.list2 {
+    position: relative;
+    display: inline-flex;
+    margin-top: 4%;
+    margin-left: 6%;
+}
+
+input {
+    
+     margin-left: 590%;
+    background-color: #182F59;
+    box-shadow: 1px 2px 6px black;
+    border-radius: 10px;
+    padding: 1% 8% 2% 19%;
+    font-family: "Outfit", sans-serif;
+    font-size: 70%;
+    border: 1px solid white;
+ 
+}
+
+.searchIcon {
+    position: absolute;
+    margin-left: 593%;
+    font-size: 95% ;
+    top: 5%;
+}
+
+input {
+    color: white;
+}
+input::placeholder {
+    color: white;
+}
+
+#slideshow{
+    margin-top: 1%;
+   
+}
+
+#slideshow img {
+    width: 100%;
+    height: 400px;
+    display: none;
+    
+    
+}
+
+#slideshow img.active {
+    display: block;
+
+}
+.title {
+    position: absolute;
+    width: 20%;
+    margin-left: 5%;
+    margin-top: -32%;
+
+}
+
+.title p {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 220%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 1px 6px 6px black;
+
+}
+
+
+.Start {
+  
+    margin-left: 5%;
+    margin-top: -6%;
+}
+button {
+    position: absolute;
+    background-color: #4279BF;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    border-radius: 10px;
+    padding: 0 1% 0 1%;
+    border: 1px solid white;
+    box-shadow: 1px 6px 6px black;
+   
+}
+
+button:hover {
+    background-color: #182F59;
+
+}
+
+.ytvid {
+    margin-top: 8%;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin: 1%;
+}
+
+.box {
+    padding: 10% 10% 20% 0;
+    width: 13%;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #182F59;
+    border-radius: 10%;   
+}
+
+.box:hover{
+    box-shadow: 2px 8px 8px black;
+}
+
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin: 1%;  
+
+}
+
+.images img{
+    margin-top: -32%;
+    width: 23%;
+    height: 200px;
+    display: flex;
+    border-radius: 10%;
+
+}
+.feature {    
+  
+    margin-left: 5%;
+    display: inline-flex;
+    gap: 1%;
+    font-family: "Outfit", sans-serif ;
+
+}
+
+.AttendanceTracking {
+    position: absolute;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin-top: -16%;
+    margin-left: 4%;
+    width: 15%;
+}
+
+.AttendanceTracking h2{
+    letter-spacing: 2px;
+    font-size: 160%;
+    
+}
+
+.AttendanceTracking p {
+    letter-spacing: 1px;
+    font-size: 110%;
+    width: 120%;
+}
+ 
+.EmployeeInformation {
+    position: absolute;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin-top: -16%;
+    margin-left: 28%;
+    width: 20%;
+
+}
+
+.EmployeeInformation h2{
+   
+    letter-spacing: 2px;
+    font-size: 160%;
+    
+}
+
+.EmployeeInformation p {
+    letter-spacing: 1px;
+    font-size: 110%;
+    width: 100%;
+    
+}
+
+.PendingTasks {
+    position: absolute;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin-top: -16%;
+    margin-left: 53%;
+    width: 20%;
+}
+
+.PendingTasks h2 {
+    letter-spacing: 2px;
+    font-size: 160%;
+}
+
+.PendingTasks p {
+    letter-spacing: 1px;
+    font-size: 100%;
+    width: 100%;
+    margin-top: -2%;
+    
+}
+
+.PayrollDistribution {
+    position: absolute;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin-top: -16%;
+    margin-left: 77%;
+    width: 18%;
+}
+
+.PayrollDistribution h2 {
+    letter-spacing: 2px;
+    font-size: 160%;
+    
+}
+
+.PayrollDistribution p {
+    letter-spacing: 1px;
+    font-size: 110%;
+    width: 107%;
+    margin-top: -2%;
+    margin-left: 2%;
+    
+}
+
+.boxesL{
+    background-color: #182F59;
+    width: 500%;
+    height: 50px;
+    padding: 30%;
+    box-shadow: 1px 2px 6px black;
+    display: flex;
+    margin-top: 38%;
+    margin-left: -430% ;
+    
+}
+
+.logof {
+    position: absolute;
+    margin-left: -400%;
+    margin-top: -70%;
+    
+}
+
+.logof img {
+   
+    width: 100%;
+    height: auto;
+   
+}
+
+.zarma {
+    position: absolute;
+    margin-left: -370%;
+    margin-top: -65%;
+   
+}
+
+.zarma p {
+   
+    color: rgb(171, 168, 168);
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 5px 4px black;
+    font-size: 120%;
+    
+}
+
+.desc {
+    position: absolute;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin-left: -375% ;
+    
+
+   
+}
+
+.desc p {
+    letter-spacing: 2px;
+    font-size: 67%;
+    width: 30%;
+    margin-top: -18%;
+
+    
+}
+
+
+
+.follow {
+    margin-top: -62%;
+    margin-left: -171%;
+}
+
+.follow p {
+    font-size: 80%;
+}
+
+.fa-facebook {
+    color: white;
+  }
+
+.fa-pinterest {
+    color: white;
+  }
+
+.fa-youtube {
+    color: white;
+  }
+
+.fa-instagram {
+        color: white;
+      }
+
+.fa {
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-flex;
+    padding-left: 2%;
+  }
+  
+.socials {
+    margin-left: -178%;
+}
+
+.contact {
+    margin-top: -23%;
+    margin-left: -24%;
+  
+}
+
+.contact p.t{
+    font-size: 75%;
+    letter-spacing: 1%;
+}
+
+.contact p {
+    font-size: 70% ;
+    letter-spacing: 2%;
+    width: 32%;
+}
+
+.map {
+    margin-top: -39%;
+    margin-left: 37%;
+}
+
+.copyright {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin-left: -215% ;
+ 
+}
+
+.copyright p {
+    letter-spacing: 2px;
+    font-size: 67%;
+    width: 50%;
+    margin-top: 1%;  
+}
